@@ -55,18 +55,24 @@ body{
 
 .logo{
 
-    width:180px;
-    height:180px;
+    width:340px;
+    max-width:90%;
 
-    border-radius:50%;
+    height:auto;
 
-    background:white;
+    object-fit:contain;
 
-    object-fit:cover;
+    background:transparent;
 
-    padding:15px;
+    padding:0;
 
-    box-shadow:var(--shadow);
+    border:none;
+
+    border-radius:0;
+
+    box-shadow:none;
+
+    margin-bottom:25px;
 }
 
 .hero h1{
